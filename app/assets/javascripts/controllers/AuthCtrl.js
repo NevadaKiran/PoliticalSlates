@@ -1,5 +1,5 @@
 angular
-  .module('slatedriver')
+  .module('slateDriver')
   .controller('AuthCtrl', function($scope, $rootScope, Auth, $state){
     var config = {headers: {'X-HTTP-Method-Override': 'POST'}}
 

@@ -1,5 +1,5 @@
 angular
-  .module('slatedriver')
+  .module('slateDriver')
   .controller('NavCtrl', function($scope, Auth, $rootScope){
     $scope.signedIn = Auth.isAuthenticated;
     $scope.logout = Auth.logout;

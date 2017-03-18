@@ -1,5 +1,5 @@
 angular
-  .module('slatedriver')
+  .module('slateDriver')
   .config(function($stateProvider, $urlRouterProvider){
     $stateProvider
       .state('home', {
